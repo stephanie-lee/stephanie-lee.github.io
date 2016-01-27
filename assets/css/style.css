@@ -230,7 +230,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .pfblock {
-	padding: 120px 0 100px;
+	padding: 100px 0 100px;
 }
 
 .pfblock-gray {
@@ -259,7 +259,7 @@ textarea.form-control {
 
 .pfblock-header {
 	text-align: center;
-	margin: 0 0 60px;
+	margin: 0 0 20px;
 }
 
 .pfblock-header-left {
@@ -283,7 +283,7 @@ textarea.form-control {
 
 .pfblock-line {
 	background: rgba(135, 135, 135, 0.5);
-	width: 100px;
+	width: 120px;
 	height: 1px;
 	margin: 30px auto;
 }
@@ -343,7 +343,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(../images/sun_moon_lake.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -359,6 +359,7 @@ textarea.form-control {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
     background-repeat: repeat;
+		opacity: 0.4;
     height: 100%;
     left: 0;
     position: absolute;
@@ -394,16 +395,16 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Servise
+ * Service
 /* ---------------------------------------------- */
 
 .iconbox {
 	background: #fff;
 	border-bottom: 1px solid #d4d4d4;
 	text-align: center;
-	padding: 40px 20px;
+	padding: 30px 20px;
 	margin: 0 0 20px;
-	height: 190px;
+	height: 180px;
 }
 
 .iconbox-icon {
@@ -687,8 +688,10 @@ textarea.form-control {
 
 @media (max-width: 767px) {
 
-	.calltoaction {
-		text-align: center;
+	.iconbox {
+		width:180px;
+		float: left;
+		margin-right: 20px;
 	}
 
 }
